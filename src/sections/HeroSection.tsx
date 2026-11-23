@@ -300,14 +300,14 @@ export function HeroSection({ onPrimaryClick }: HeroProps) {
                 transition={{ delay: 1.15, duration: 0.9 }}
                 className="mt-10 flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row"
               >
-                <a
-                  href="#complaint-form"
-                  onClick={onPrimaryClick}
-                  className={`group inline-flex items-center justify-center gap-3 rounded-lg bg-[var(--color-emerald)] px-8 py-4 text-sm font-bold text-[var(--color-primary-foreground)] transition-colors duration-200 hover:bg-[var(--color-emerald-hover)] active:scale-[0.98] ${focusRing}`}
-                >
-                  <span>تقديم طلب توثيق شكوى</span>
-                  <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
-                </a>
+            <a
+  href="#complaint-form"
+  onClick={onPrimaryClick}
+  className={`group inline-flex items-center justify-center gap-3 rounded-lg bg-[var(--color-ink)] px-8 py-4 text-sm font-bold text-white transition-colors duration-200 hover:bg-[var(--color-ink-800)] active:scale-[0.98] ${focusRing}`}
+>
+  <span>تقديم طلب توثيق شكوى</span>
+  <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
+</a>
                 <a
                   href="#how-it-works"
                   className={`inline-flex items-center justify-center rounded-lg bg-[var(--color-gold)] px-8 py-4 text-sm font-bold text-[var(--color-ink)] transition-colors duration-200 hover:bg-[var(--color-gold-hover)] active:scale-[0.98] ${focusRing}`}
