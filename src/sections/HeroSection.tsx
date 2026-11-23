@@ -310,7 +310,7 @@ export function HeroSection({ onPrimaryClick }: HeroProps) {
                 </a>
                 <a
                   href="#how-it-works"
-                  className={`inline-flex items-center justify-center rounded-lg border border-[var(--color-ink)]/25 px-8 py-4 text-sm font-medium text-[var(--color-ink)] transition-colors duration-200 hover:border-[var(--color-gold)] hover:text-[var(--color-gold-dark)] active:scale-[0.98] ${focusRing}`}
+                  className={`inline-flex items-center justify-center rounded-lg bg-[var(--color-gold)] px-8 py-4 text-sm font-bold text-[var(--color-ink)] transition-colors duration-200 hover:bg-[var(--color-gold-hover)] active:scale-[0.98] ${focusRing}`}
                 >
                   دليل الإجراءات
                 </a>

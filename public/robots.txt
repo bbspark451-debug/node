@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # رابط خريطة الموقع الرسمية
-Sitemap:https://uaeconsumerdesk.com/sitemap.xml
+Sitemap:https://uae-supported.com/sitemap.xml
